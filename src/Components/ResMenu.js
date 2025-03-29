@@ -20,6 +20,7 @@ const ResMenu = () => {
             <p>{avgRating}</p>
             <p>{costForTwoMessage}</p>
             <p>{areaName}</p>
+            {console.log("Jayasri")}
             {itemCards.map((each,index) => <ResCate showItem = {index === showIndex ? true : false} item = {each} setShowIndex = {() => setShowIndex(index === showIndex? null : index)}/>)}
         </div>
     )
